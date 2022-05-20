@@ -38,6 +38,12 @@ cd api
 npm install
 ```
 
+Configurar la llave pública y privada en el archivo `api/.env`
+```
+API_KEY_PUBLIC=xxxxx
+API_KEY_PRIVATE=yyyyy
+```
+
 Iniciar el API
 ```
 npm run dev
